@@ -23,7 +23,7 @@
       content="Particles, Effects, Editor, iOS, macOS, Cocoa Touch, iPhone, iPad, development, Swift, Objective-C"
     />
     <meta name="author" content="Besher Al Maleh" />
-    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="contact.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -52,17 +52,34 @@
             <a href="./contact.html">
               <li>Contact</li>
             </a>
-            <a href="./privacy-policy.html">
-              <li>Privacy Policy</li>
-            </a>
           </ul>
         </nav>
       </div>
+    </section>
 
-      <div id="background-container"></div>
+    <section id="main-contents">
+      <div id="title"><h1>Contact</h1></div>
+      <div id="main-body">
+        <h1>
+          The best way to contact me would be on Twitter <br />
+          <a href="https://twitter.com/BesherMaleh" target="_blank"
+            >https://twitter.com/BesherMaleh</a>
+<br><br>
+            Alternatively, you can send me an email
+        </h1>
 
-      <h1>Contact</h1>
-      <h3></h3>
+        <form
+          action="mailto:almalehdev@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          Your email address: <br />
+          <input id="email" type="email" name="emailaddress" /><br />
+          Comment: <br />
+          <input id="text" type="text" name="message" /><br />
+          <input id="submit" type="submit" value="Submit" />
+        </form>
+      </div>
     </section>
 
     <section id="contact">
@@ -70,7 +87,10 @@
         <a href="https://github.com/almaleh" target="_blank">Github</a>
         <a href="https://medium.com/@almalehdev" target="_blank">Medium</a>
         <a href="https://twitter.com/BesherMaleh" target="_blank">Twitter</a>
+        <a href="./privacy-policy.html">Privacy Policy</a>
       </div>
     </section>
+
+    <section id="bottom-background"></section>
   </body>
 </html>
