@@ -48,14 +48,15 @@ body {
 }
 
 #navbar {
-   padding: 20px;
    width: 100%;
    margin: auto;
 }
 
 #navbar ul {
-   text-align: right;
-   list-style: none;
+    padding-right: 20px; 
+    padding-top: 20px; 
+    text-align: right;
+    list-style: none;
 }
 
 #navbar ul a:hover {
@@ -368,10 +369,6 @@ body {
         display: none;
     }
 
-    #navbar ul a:last-child { 
-        margin-right: 20px;
-    }
-
     #navbar li, #app-title { 
         font-size: 12pt;
     }
@@ -380,13 +377,3 @@ body {
         margin-right: 5px;
     }
 }
-
-/* @media screen and (max-width:350px) {
-    #navbar li, #app-title { 
-        font-size: 10pt;
-    }
-    #navbar li {
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-} */
