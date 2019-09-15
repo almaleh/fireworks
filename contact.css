@@ -40,11 +40,27 @@ body {
     height: auto;
     width: 100%;
     background-color: rgba(77, 77, 77, 0.461);
+    font-size: 20pt;
+}
+
+#app-title { 
+     float: left; 
+    position: relative;
+    left: 40px;
+    top: 7px; 
+}
+
+#app-title-image { 
+    position: relative;
+    height: auto;
+    width: 38px;
+    top: 10px;  
+    left: 10px; 
+    /* margin-left: 10px;  */
 }
 
 #navbar {
     padding: 20px;
-    font-size: 20pt;
     width: 100%;
     margin: auto;
 }
@@ -64,7 +80,7 @@ body {
     margin-right: 50px;
 }
 
-#navbar a {
+#navbar-container a {
     color: white;
     text-decoration: none;
 }
@@ -78,16 +94,17 @@ body {
 
 #title h1 {
     letter-spacing: 5pt;
-    font-size: calc(15px + 7vmin);
-    margin-top: 80px; 
+    font-size: calc(15px + 6vmin);
+    margin-top: 100px; 
     margin-bottom: 25px;
     color: white;
 }
 
 #main-body h1 {
     margin-top: 0;
-    font-size: calc(10px + 2vmin);
-    line-height: calc(10px + 4vmin);
+    font-size: calc(15px + 1vmin);
+    line-height: calc(15px + 2vmin);
+    font-weight: normal;
 }
 
 #main-body a { 
@@ -108,7 +125,10 @@ body {
 #main-body form * { 
     margin: 15px; 
     width: 300px; 
-    height: 
+}
+
+#submit { 
+    height: 40px; 
 }
 
 #background-container {
@@ -233,7 +253,7 @@ body {
 .appstore-button img {
     width: 180px;
     height: auto;
-}
+} */
 
 .project-button {
     margin: 20px;
@@ -260,7 +280,7 @@ body {
 .project-button:active {
     color: white;
     background: rgb(186, 186, 186);
-} */
+}
 
 
 #blog-link {
@@ -304,12 +324,16 @@ body {
 
 #bottom-background { 
     background-color: rgba(77, 77, 77, 0.461);
-    min-height: 100vh; 
+    min-height: 50vh; 
     overflow-y: hidden;
 }
 
 @media screen and (max-width:900px) {
-    #navbar a {
+    #app-title { 
+        
+    }
+
+    #navbar a, #app-title {
         font-size: 16pt;
     }
     #navbar li {
@@ -323,6 +347,11 @@ body {
 }
 
 @media screen and (max-width:700px) {
+    
+    #app-title { 
+        left: 20px;
+    }
+
     #navbar {
         padding-left: 0px;
         padding-right: 0px;
@@ -354,8 +383,10 @@ body {
 }
 
 @media screen and (max-width:600px) {
-    #navbar li {
+    #navbar li, #app-title { 
         font-size: 14pt;
+    }
+    #navbar li {
         margin-left: 10px;
         margin-right: 15px;
     }

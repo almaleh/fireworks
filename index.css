@@ -1,5 +1,5 @@
 html {
-    background: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(191, 191, 191));
+    background: linear-gradient(to bottom right, rgb(0, 139, 248), rgb(220, 0, 115));
     background-attachment: fixed;
     cursor: default;
 }
@@ -11,7 +11,7 @@ html {
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 body {
