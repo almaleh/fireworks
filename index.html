@@ -54,11 +54,11 @@
       </a>
       <nav id="navbar">
         <ul>
-          <a href="#">
+          <a href="./index.html#">
             <li>Download</li>
           </a>
-          <a href="#contact">
-            <li>FAQ</li>
+          <a href="./index.html#tip-jar-section">
+            <li>Tip Jar</li>
           </a>
           <a href="./contact.html">
             <li>Contact</li>
@@ -92,7 +92,7 @@
             </button>
           </div>
 
-          <p id="compatibility">Compability: macOS 10.13 or later</p>
+          <p id="compatibility">Requires macOS 10.13 or later</p>
         </div>
         <div id="welcome-image">
           <img
@@ -101,6 +101,133 @@
             alt="Fireworks Image"
           />
         </div>
+      </div>
+    </section>
+
+    <section id="screenshots">
+      <div id="preview-1" class="preview">
+        <p class="preview-description">
+          Interactively create particle effects for your macOS and iOS projects<br />
+          <a href="https://google.ca" target="_blank">Watch video</a>
+        </p>
+
+        <img
+          class="preview-image"
+          onclick="window.open('https://github.com/almaleh/Quick-Ticker', '_blank')"
+          src="images/fireworks-preview.gif"
+          alt="Fireworks Image"
+        />
+      </div>
+
+      <div id="preview-2" class="preview">
+        <p class="preview-description">
+          Fine tune your particles designs with plenty of controls. All numeric
+          controls can be dragged left and right for quick adjustment
+        </p>
+        <img
+          class="preview-image"
+          onclick="window.open('images/full-screenshot-snow.png', '_blank')"
+          src="images/screenshot-controls.png"
+          alt="Fireworks Image"
+        />
+      </div>
+
+      <div id="preview-3" class="preview">
+        <p class="preview-description">
+          Generate Swift code on the fly, and change values directly in
+          the code editor
+        </p>
+
+        <img
+          class="preview-image"
+          onclick="window.open('images/full-screenshot-mystery.png', '_blank')"
+          src="images/screenshot-code.png"
+          alt="Fireworks Image"
+        />
+      </div>
+
+      <div id="preview-4" class="preview">
+        <p class="preview-description">
+          See instant feedback from your changes in the preview, and select from
+          multiple emitter shapes
+        </p>
+        <img
+          class="preview-image"
+          onclick="window.open('images/full-screenshot-ring-of-fire.png', '_blank')"
+          src="images/screenshot-feedback.png"
+          alt="Fireworks Image"
+        />
+      </div>
+
+      <div id="preview-5" class="preview">
+        <p class="preview-description">
+          Add different textures to your emitter cells and sub cells
+        </p>
+
+        <img
+          class="preview-image"
+          onclick="window.open('images/full-screenshot-confetti.png', '_blank')"
+          src="images/screenshot-confetti.png"
+          alt="Fireworks Image"
+        />
+      </div>
+    </section>
+
+    <!-- Move to last section -->
+    <section id="tip-jar-section">
+      <div id="description">
+        <h2>
+          If you find Fireworks useful and wish to support its development,
+          consider downloading it from the App Store or sending a tip via
+          PayPal!
+        </h2>
+
+        <p>
+          The App Store version has the same functionality as the version from
+          this website, with the added benefit of getting updates via the App
+          Store:
+        </p>
+
+        <button class="appstore-button" type="button">
+          <a
+            href="https://apps.apple.com/us/app/draw-with-math/id1447996733"
+            target="_blank"
+            ><img src="images/appstore.png" alt="app store"
+          /></a>
+        </button>
+
+        <p>
+          If you prefer to download Fireworks directly from this website, but
+          still wish to support the project, you can send a PayPal tip:
+        </p>
+
+        <form
+          action="https://www.paypal.com/cgi-bin/webscr"
+          method="post"
+          target="_blank"
+          id="paypal"
+        >
+          <input type="hidden" name="cmd" value="_donations" />
+          <input type="hidden" name="business" value="N8FUA55TLKVDQ" />
+          <input type="hidden" name="currency_code" value="USD" />
+          <img
+            alt=""
+            border="0"
+            src="https://www.paypal.com/en_US/i/scr/pixel.gif"
+            width="1"
+            height="1"
+          />
+        </form>
+
+        <button
+          target="_blank"
+          class="general-button button"
+          type="submit"
+          form="paypal"
+          id="paypal-button"
+        >
+          <p><i class="fab fa-paypal"></i> Donate</p>
+        </button>
       </div>
     </section>
 
@@ -115,7 +242,7 @@
 
     <section id="bottom-background">
       <a href="https://www.besher.ca"
-        >© 2019 Besher Al Maleh. All rights reserved.
+        ><p>© 2019 Besher Al Maleh. All rights reserved.</p>
       </a>
     </section>
   </body>

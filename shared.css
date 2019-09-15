@@ -2,6 +2,7 @@ html {
     background: linear-gradient(to bottom right, rgb(0, 139, 248), rgb(220, 0, 115));
     background-attachment: fixed;
     cursor: default;
+    scroll-behavior: smooth;
 }
 
 * {
@@ -78,7 +79,7 @@ body {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    height: 93vh;
+    height: 96vh;
 }
 
 #welcome-section h1 {
@@ -255,7 +256,7 @@ body {
 
 
 #contact {
-    margin-top: 25px;
+    /* margin-top: 25px; */
     min-height: 150px;
     background-color: rgba(77, 77, 77, 0.461);
 }
@@ -290,6 +291,11 @@ body {
     overflow-y: hidden;
     padding-top: 20px; 
     padding-bottom: 40px; 
+}
+
+#bottom-background p { 
+    margin-right: 10px; 
+    margin-left: 10px; 
 }
 
 @media screen and (max-width:900px) {
@@ -346,7 +352,7 @@ body {
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:650px) {
     #navbar li, #app-title { 
         font-size: 14pt;
     }
@@ -355,3 +361,32 @@ body {
         margin-right: 15px;
     }
 }
+
+@media screen and (max-width:550px) {
+
+    #navbar ul a:first-child { 
+        display: none;
+    }
+
+    #navbar ul a:last-child { 
+        margin-right: 20px;
+    }
+
+    #navbar li, #app-title { 
+        font-size: 12pt;
+    }
+    #navbar li {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+/* @media screen and (max-width:350px) {
+    #navbar li, #app-title { 
+        font-size: 10pt;
+    }
+    #navbar li {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+} */

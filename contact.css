@@ -23,13 +23,15 @@ body {
 }
 
 #main-body h1 {
-    margin-top: 0;
+    margin-top: 20px;
     font-size: calc(15px + 1vmin);
     line-height: calc(15px + 2vmin);
     font-weight: normal;
 }
 
 #main-body a { 
+    font-size: calc(15px + 1vmin);
+    line-height: calc(15px + 2vmin);
     text-decoration-line: underline;
 }
 
@@ -38,9 +40,13 @@ body {
     color: lightgray;
 }
 
+#email-title { 
+    padding-top: 140px; 
+}
+
 #main-body form { 
     margin: auto; 
-    margin-top: 30px; 
+    margin-top: 20px; 
     max-width: 400px;
 }
 
