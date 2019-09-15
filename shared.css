@@ -24,7 +24,7 @@ body {
     outline: 0 !important;
   }
 
-  #welcome-section {
+#welcome-section {
     color: white;
     display: flex;
     flex-flow: column nowrap;
@@ -56,7 +56,6 @@ body {
    width: 38px;
    top: 10px;  
    left: 10px; 
-   /* margin-left: 10px;  */
 }
 
 #navbar {
