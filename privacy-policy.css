@@ -21,7 +21,6 @@ a {
 }
 
 #welcome-section h2 {
-    letter-spacing: 5pt;
     font-size: calc(15px + 3vmin);
     margin-top: 150px; 
     margin-bottom: 25px;

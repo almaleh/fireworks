@@ -1,0 +1,61 @@
+
+
+#welcome-container { 
+    position: relative;
+    top: -50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome-container h1 {
+    font-size: calc(40px + 4vmin);
+    margin-right: -10px; 
+}
+
+#welcome-container h3 {
+    font-size: calc(20px + 2vmin);
+}
+
+#welcome-text { 
+    text-align: right; 
+    margin-right: 30px; 
+    margin-top: 50px; 
+    /* height: 100px;  */
+    /* width: 1000px;  */
+}
+
+#welcome-text .general-button {
+    margin-top: 50px;
+    margin-left: 20px; 
+    margin-bottom: 10px;
+}
+
+#compatibility {
+    margin-top: 20px;
+    margin-right: 5px; 
+    margin-bottom: 30px; 
+    color: rgba(255, 255, 255, 0.685);
+}
+
+/* #welcome-image { 
+    background: green;
+} */
+
+#welcome-image img { 
+    height: auto;
+    width: calc(100px + 12vmin);
+}
+
+@media screen and (max-width:700px) {
+
+    #welcome-container { 
+        flex-flow: column nowrap;
+    }
+
+    #welcome-text { 
+        text-align: center; 
+    }
+
+}

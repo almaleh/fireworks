@@ -28,6 +28,7 @@
     />
     <meta name="author" content="Besher Al Maleh" />
     <link rel="stylesheet" type="text/css" href="shared.css" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -67,8 +68,38 @@
     </div>
 
     <section id="welcome-section">
-      <h1>Fireworks</h1>
-      <h3>Particle Effects Editor</h3>
+      <div id="welcome-container">
+        <div id="welcome-text">
+          <h1>Fireworks</h1>
+          <h3>Particle Effects Editor</h3>
+
+          <div id="download-buttons">
+          <button
+            onclick="window.open('https://github.com/almaleh/Quick-Ticker', '_blank')"
+            target="_blank"
+            class="general-button button"
+            type="button"
+          >
+            <p>Download v1.0</p>
+          </button>
+
+          <button class="appstore-button" type="button"><a
+            href="https://itunes.apple.com/us/app/classic-barjees/id1325227100?mt=8"
+            target="_blank"><img src="images/appstore.png" alt="app store" /></a></button>
+
+          </div>
+
+          <p id="compatibility">Compability: macOS 10.13 or later</p>
+
+        </div>
+        <div id="welcome-image">
+          <img
+            id="app-title-image"
+            src="images/AppIcon.png"
+            alt="Fireworks Image"
+          />
+        </div>
+      </div>
     </section>
 
     <section id="contact">
