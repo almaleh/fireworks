@@ -11,7 +11,8 @@
 
 #welcome-container h1 {
     font-size: calc(40px + 4vmin);
-    margin-right: -10px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: inherit;
 }
 
 #welcome-container h3 {
@@ -22,14 +23,23 @@
     text-align: right; 
     margin-right: 30px; 
     margin-top: 50px; 
-    /* height: 100px;  */
-    /* width: 1000px;  */
 }
 
-#welcome-text .general-button {
-    margin-top: 50px;
+#download-buttons { 
+    margin-top: 40px;
+    margin-bottom: 10px;    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#download-buttons button {
     margin-left: 20px; 
-    margin-bottom: 10px;
+}
+
+#download-buttons button i {
+    margin-right: 10px; 
 }
 
 #compatibility {
@@ -38,10 +48,6 @@
     margin-bottom: 30px; 
     color: rgba(255, 255, 255, 0.685);
 }
-
-/* #welcome-image { 
-    background: green;
-} */
 
 #welcome-image img { 
     height: auto;

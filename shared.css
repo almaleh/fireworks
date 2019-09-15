@@ -214,13 +214,12 @@ body {
 }
 
 .appstore-button img {
-    width: 180px;
-    height: auto;
+    width: auto;
+    height: 56px;
 }
 
 .general-button {
     border-radius: 6px;
-    width: 180px;
     height: 55px; 
     font-size: 15pt;
     border: none; 
@@ -233,6 +232,8 @@ body {
 .general-button p {
     font-weight: bold;
     color: rgb(43, 43, 43);
+    margin-right: 20px; 
+    margin-left: 20px; 
 }
 
 .general-button:hover {
