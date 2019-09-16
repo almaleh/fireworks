@@ -179,7 +179,7 @@
     #welcome-container { 
         position: static;
         flex-flow: column-reverse nowrap;
-        margin-top: 20px; 
+        margin-top: 20px;
     }
 
     #welcome-text { 
@@ -207,7 +207,28 @@
     }
 }
 
+@media (orientation: landscape) and (max-width: 950px) { 
+    #welcome-container { 
+        margin-top: 120px;
+    }
+}
+
 @media screen and (max-width:550px) { 
+
+    #welcome-image img { 
+        height: auto;
+        width: calc(100px + 2vmin);
+    }
+    
+    #welcome-container h1 {
+        font-size: calc(30px + 2vmin);
+        margin-bottom: 10px; 
+    }
+    
+    #welcome-container h3 {
+        font-size: calc(20px + 1vmin);
+        margin-bottom: 0px; 
+    }
 
     #download-buttons button:first-child { 
         margin-right: 0px; 

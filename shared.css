@@ -361,6 +361,12 @@ body {
     }
 }
 
+@media (orientation: landscape) and (max-width: 950px) { 
+    #welcome-section {
+        height: 130vh;
+    }
+}
+
 @media screen and (max-width:550px) {
 
     #navbar li, #app-title { 
