@@ -72,7 +72,8 @@
 
           <div id="download-buttons">
             <button
-              onclick="window.open('public/Fireworks-v1.0.1.zip')"
+              onclick="window.open('public/Fireworks-v1.0.1.zip'); 
+              gtag('event', 'download-direct');"
               class="general-button button"
               type="button"
             >
@@ -82,16 +83,14 @@
             <!-- <button class="appstore-button" type="button">
               <a
                 href="https://apps.apple.com/app/id1479641484"
+                onclick="gtag('event', 'download-app-store');"
                 target="_blank"
                 ><img src="images/appstore.png" alt="app store"
               /></a>
             </button> -->
 
             <button class="appstore-button" type="button">
-              <a
-                href="#"
-                ><img src="images/appstore.png" alt="app store"
-              /></a>
+              <a href="#"><img src="images/appstore.png" alt="app store"/></a>
             </button>
           </div>
 
@@ -100,7 +99,8 @@
         <div id="welcome-image">
           <img
             id="app-title-image"
-            onclick="window.open('public/Fireworks-v1.0.1.zip', '_blank')"
+            onclick="window.open('public/Fireworks-v1.0.1.zip'); 
+            gtag('event', 'download-direct');"
             src="images/AppIcon.png"
             alt="Fireworks Image"
           />
@@ -111,7 +111,8 @@
     <section id="screenshots">
       <div id="preview-1" class="preview">
         <p class="preview-description">
-          Interactively create particle effects for your macOS and iOS projects<br />
+          Interactively create particle effects for your macOS and iOS
+          projects<br />
           <a href="https://youtu.be/GhwTJPgkB2o" target="_blank">Watch video</a>
         </p>
 
@@ -138,8 +139,8 @@
 
       <div id="preview-3" class="preview">
         <p class="preview-description">
-          Generate Swift code on the fly, and change values directly in
-          the code editor
+          Generate Swift code on the fly, and change values directly in the code
+          editor
         </p>
 
         <img
@@ -186,22 +187,22 @@
         </h2>
 
         <p>
-          The store version (coming soon!) has the same functionality as the version from
-          this website, with the added benefit of getting updates via the App
-          Store:
+          The store version (coming soon!) has the same functionality as the
+          version from this website, with the added benefit of getting updates
+          via the App Store:
         </p>
 
         <!-- <button class="appstore-button" type="button">
           <a
             href="https://apps.apple.com/app/id1479641484"
+            onclick="gtag('event', 'download-app-store');"
             target="_blank"
             ><img src="images/appstore.png" alt="app store"
           /></a>
         </button> -->
 
         <button class="appstore-button" type="button">
-          <a
-            href="#tip-jar"
+          <a href="#tip-jar"
             ><img src="images/appstore.png" alt="app store"
           /></a>
         </button>
