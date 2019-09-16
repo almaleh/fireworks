@@ -62,6 +62,10 @@
     width: calc(100px + 12vmin);
 }
 
+#welcome-image:hover { 
+    cursor: pointer;
+}
+
 #screenshots { 
     margin-bottom: 50px; 
 }
