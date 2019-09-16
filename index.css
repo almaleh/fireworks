@@ -43,12 +43,6 @@
 
 #download-buttons .general-button p {
     color: rgb(55, 55, 55);
-   
-    font-size: 12pt; 
-}
-
-#small-text { 
-    font-size: 11pt; 
 }
 
 .general-button p:active {
