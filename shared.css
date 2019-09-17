@@ -1,6 +1,6 @@
 html {
     background: linear-gradient(to bottom right, rgb(0, 139, 248), rgb(220, 0, 115));
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     cursor: default;
     scroll-behavior: smooth;
 }
