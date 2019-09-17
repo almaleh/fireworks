@@ -209,7 +209,6 @@ body {
     border: none;
     background: none;
     transition: all .05s ease-out;
-    opacity: 0.3;
 }
 
 .appstore-button:hover {
