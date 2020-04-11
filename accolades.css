@@ -26,15 +26,6 @@
     line-height: 18pt;
 }
 
-.accolade a { 
-    color: white; 
-    
-}
-
-.accolade a:hover { 
-    color: rgb(203, 203, 203); 
-}
-
 .accolade-description { 
     font-size: 17pt; 
     line-height: 28pt;
@@ -58,7 +49,11 @@
 }
 
 .accolade-link { 
-    /* font-weight: bold; */
+    text-decoration: underline; 
+}
+
+.accolade-bottom:hover .accolade-link { 
+    text-decoration: none; 
 }
 
 @media screen and (max-width:850px) {
