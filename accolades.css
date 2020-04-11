@@ -34,43 +34,37 @@
     background-color: white;
     border-radius: 4pt;
     box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.32);
-    /* padding: 20pt;  */
     margin: 20pt; 
     max-width: 300pt;
     max-height: 200pt;
     line-height: 18pt;
-    /* overflow: hidden; */
 }
 
 .accolade a { 
-    /* padding: 20pt;  */
-    color: rgb(77, 0, 230);
+    color: rgb(122, 62, 244);
 }
 
 .accolade a:hover { 
-    /* padding: 20pt;  */
-    color: rgba(77, 0, 230, 0.632);
+    color: rgba(77, 0, 230, 0.397);
 }
 
 .accolade-description { 
-    /* padding: 20pt;  */
-    font-size: 13pt; 
-    color: rgb(75, 75, 75);
+    font-size: 14pt; 
+    line-height: 24pt;
+    color: rgb(126, 126, 126);
     padding-left:15pt;
     padding-right:15pt;
     padding-top:20pt;
     padding-bottom:20pt;
-    /* padding-bottom: 20pt; */
-    /* font-weight: bold; */
 }
 
 .accolade-author { 
-    color: rgb(108, 108, 108);
+    color: rgb(75, 75, 75);
     
 }
 
 .accolade-bottom { 
-    padding: 20pt; 
+    padding: 10pt; 
     padding-top: 8pt;
     padding-bottom: 8pt;
     background-color: rgba(55, 0, 255, 0.036);
@@ -108,6 +102,6 @@
     }
 
     .accolade { 
-        width: 200pt;
+        width: 240pt;
     }
 }
