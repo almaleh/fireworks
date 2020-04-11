@@ -1,21 +1,31 @@
-#accolades-section { 
+.accolades-section { 
     position: relative;
-    /* top: 100pt; */
+    top: 100pt;
     color: white;    
+    display: flex;
+    justify-content: center;
 }
 
-#accolades-title { 
+.accolades-title { 
     font-size: 22pt; 
     margin: 20pt; 
     /* margin-top: 40pt; */
+}    
+
+#accolades1 { 
+    display: initial;
 }
 
-#accolades-cards { 
+#accolades2 { 
+    display: none;
+}
+
+.accolades-cards { 
     display: flex;
     flex-flow: row nowrap;
     /* flex-flow: column nowrap; */
-    justify-content: flex-end;
-    align-items: flex-start;
+    /* justify-content: flex-end; */
+    /* align-items: flex-start; */
     align-items: center;
 }
 
@@ -72,13 +82,25 @@
 
 @media screen and (max-width:850px) {
     
-    #accolades-title { 
+    #accolades1 { 
+        display: none;
+    }
+
+    #accolades2 { 
+        display: initial;
+    }
+
+    .accolades-section { 
+        position: initial;
+    }
+
+    .accolades-title { 
         font-size: 18pt; 
         margin: 10pt; 
         /* margin-top: 40pt; */
     }
 
-    #accolades-cards { 
+    .accolades-cards { 
         /* display: flex; */
         flex-flow: column nowrap;
         /* justify-content: flex-end; */
