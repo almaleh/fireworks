@@ -1,15 +1,13 @@
 .accolades-section { 
     position: relative;
-    top: 100pt;
-    color: white;    
+    top: 80pt;
     display: flex;
     justify-content: center;
 }
 
 .accolades-title { 
     font-size: 22pt; 
-    margin: 20pt; 
-    /* margin-top: 40pt; */
+    /* margin: 20pt;  */
 }    
 
 #accolades1 { 
@@ -31,43 +29,41 @@
 
 .accolade { 
     flex: 1 1 0px; 
-    background-color: white;
-    border-radius: 4pt;
-    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.32);
     margin: 20pt; 
-    max-width: 300pt;
-    max-height: 200pt;
+    max-width: 350pt;
+    /* max-height: 200pt; */
     line-height: 18pt;
 }
 
 .accolade a { 
-    color: rgb(122, 62, 244);
+    color: white; 
+    font-size: 13pt; 
 }
 
 .accolade a:hover { 
-    color: rgba(77, 0, 230, 0.397);
+    color: rgb(203, 203, 203); 
 }
 
 .accolade-description { 
-    font-size: 14pt; 
-    line-height: 24pt;
-    color: rgb(126, 126, 126);
+    font-size: 17pt; 
+    line-height: 28pt;
+    color: white; 
     padding-left:15pt;
     padding-right:15pt;
     padding-top:20pt;
-    padding-bottom:20pt;
+    padding-bottom:5pt;
 }
 
 .accolade-author { 
-    color: rgb(75, 75, 75);
-    
+    color: rgb(226, 218, 228);
 }
 
 .accolade-bottom { 
+    line-height: 21pt;
+    font-weight: bold;
     padding: 10pt; 
     padding-top: 8pt;
     padding-bottom: 8pt;
-    background-color: rgba(55, 0, 255, 0.036);
 }
 
 .accolade-link { 
