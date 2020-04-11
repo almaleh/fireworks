@@ -1,21 +1,13 @@
+
+
 .accolades-section { 
     position: relative;
-    top: 80pt;
-    display: flex;
-    justify-content: center;
+    top: 60pt;
 }
 
 .accolades-title { 
     font-size: 22pt; 
     /* margin: 20pt;  */
-}    
-
-#accolades1 { 
-    display: initial;
-}
-
-#accolades2 { 
-    display: none;
 }
 
 .accolades-cards { 
@@ -31,13 +23,12 @@
     flex: 1 1 0px; 
     margin: 20pt; 
     max-width: 350pt;
-    /* max-height: 200pt; */
     line-height: 18pt;
 }
 
 .accolade a { 
     color: white; 
-    font-size: 13pt; 
+    
 }
 
 .accolade a:hover { 
@@ -55,12 +46,12 @@
 }
 
 .accolade-author { 
-    color: rgb(226, 218, 228);
+    color: rgb(226, 218, 228);;
 }
 
 .accolade-bottom { 
     line-height: 21pt;
-    font-weight: bold;
+    font-size: 13pt; 
     padding: 10pt; 
     padding-top: 8pt;
     padding-bottom: 8pt;
@@ -71,23 +62,15 @@
 }
 
 @media screen and (max-width:850px) {
-    
-    #accolades1 { 
-        display: none;
-    }
-
-    #accolades2 { 
-        display: initial;
-    }
 
     .accolades-section { 
-        position: initial;
+        position: absolute;
+        top: 100vh;
     }
 
     .accolades-title { 
         font-size: 18pt; 
         margin: 10pt; 
-        /* margin-top: 40pt; */
     }
 
     .accolades-cards { 

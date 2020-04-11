@@ -21,6 +21,10 @@ body {
     overflow-x: hidden;
 }
 
+.spacer { 
+    height: 0vh;
+}
+
 .button:focus {
     outline: 0 !important;
 }
@@ -311,6 +315,12 @@ body {
         margin-left: 20px;
         margin-right: 20px;
         font-size: 16pt;
+    }
+}
+
+@media screen and (max-width: 850px) { 
+    .spacer { 
+        height: 60vh;
     }
 }
 
