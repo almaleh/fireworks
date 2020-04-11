@@ -66,6 +66,10 @@
     cursor: pointer;
 }
 
+.italic { 
+    font-style: italic;   
+}
+
 #screenshots { 
     margin-bottom: 50px; 
 }
@@ -112,7 +116,7 @@
     width: calc(400px + 12vmin);
     max-width: 500px;
     height: auto;
-    border-radius: 4px;
+    border-radius: 4pt;
     box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.32);
 }
 

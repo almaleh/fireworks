@@ -1,0 +1,91 @@
+#accolades-section { 
+    position: relative;
+    /* top: 100pt; */
+    color: white;    
+}
+
+#accolades-title { 
+    font-size: 22pt; 
+    margin: 20pt; 
+    /* margin-top: 40pt; */
+}
+
+#accolades-cards { 
+    display: flex;
+    flex-flow: row nowrap;
+    /* flex-flow: column nowrap; */
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-items: center;
+}
+
+.accolade { 
+    flex: 1 1 0px; 
+    background-color: white;
+    border-radius: 4pt;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.32);
+    /* padding: 20pt;  */
+    margin: 20pt; 
+    max-width: 300pt;
+    max-height: 200pt;
+    line-height: 18pt;
+    /* overflow: hidden; */
+}
+
+.accolade a { 
+    /* padding: 20pt;  */
+    color: rgb(77, 0, 230);
+}
+
+.accolade a:hover { 
+    /* padding: 20pt;  */
+    color: rgba(77, 0, 230, 0.632);
+}
+
+.accolade-description { 
+    /* padding: 20pt;  */
+    font-size: 13pt; 
+    color: rgb(75, 75, 75);
+    padding-left:15pt;
+    padding-right:15pt;
+    padding-top:20pt;
+    padding-bottom:20pt;
+    /* padding-bottom: 20pt; */
+    /* font-weight: bold; */
+}
+
+.accolade-author { 
+    color: rgb(108, 108, 108);
+    
+}
+
+.accolade-bottom { 
+    padding: 20pt; 
+    padding-top: 8pt;
+    padding-bottom: 8pt;
+    background-color: rgba(55, 0, 255, 0.036);
+}
+
+.accolade-link { 
+    /* font-weight: bold; */
+}
+
+@media screen and (max-width:850px) {
+    
+    #accolades-title { 
+        font-size: 18pt; 
+        margin: 10pt; 
+        /* margin-top: 40pt; */
+    }
+
+    #accolades-cards { 
+        /* display: flex; */
+        flex-flow: column nowrap;
+        /* justify-content: flex-end; */
+        /* align-items: center; */
+    }
+
+    .accolade { 
+        width: 200pt;
+    }
+}
