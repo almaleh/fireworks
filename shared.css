@@ -84,7 +84,7 @@ body {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    height: 96vh;
+    min-height: 96vh;
 }
 
 #welcome-section h1 {
@@ -315,6 +315,12 @@ body {
         margin-left: 20px;
         margin-right: 20px;
         font-size: 16pt;
+    }
+}
+
+@media screen and (max-height:600px){ 
+    .spacer { 
+        height: 60vh;
     }
 }
 
