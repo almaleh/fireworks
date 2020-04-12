@@ -21,10 +21,6 @@ body {
     overflow-x: hidden;
 }
 
-.spacer { 
-    height: 0vh;
-}
-
 .button:focus {
     outline: 0 !important;
 }
