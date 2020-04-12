@@ -303,6 +303,15 @@ body {
     margin-left: 10px; 
 }
 
+
+
+@media screen and (max-height:500px) {
+
+    #welcome-section {
+        min-height: 255vh;
+    }
+}
+
 @media screen and (max-width:900px) {
 
     #navbar a, #app-title {
@@ -315,18 +324,6 @@ body {
         margin-left: 20px;
         margin-right: 20px;
         font-size: 16pt;
-    }
-}
-
-@media screen and (max-height:600px){ 
-    .spacer { 
-        height: 60vh;
-    }
-}
-
-@media screen and (max-width: 850px) { 
-    .spacer { 
-        height: 60vh;
     }
 }
 
